@@ -1,58 +1,33 @@
-/* Define CSS variables in the :root pseudo-class selector */
-:root {
-    --primary-color: #3498db; /* blue */
-    --secondary-color: #f1c40f; /* yellow */
-    --background-color: #f9f9f9; /* light gray */
-    --text-color: #333; /* dark gray */
-}
-
-/* Style headings and paragraph elements */
-h1, h2, h3, h4, h5, h6 {
-    color: var(--primary-color);
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    font-size: 36px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-p {
-    color: var(--text-color);
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-}
-
-/* Remove underlines from social media image links */
-.sociallinks a {
+/* Remove underlinefrom specific links */
+nav a {
     text-decoration: none;
-}
+}/* Styling for the hero section */
 
-.sociallinks a img {
-    border: none;
-    outline: none;
-}
 .hero img {
-    display: block;
+    display: block ;   
     width: 100%;
     height: auto;
 }
-
-/* Add colors to fonts */
-footer {
-    color: var(--secondary-color);
-    background-color: var(--background-color);
-    padding: 10px;
-    text-align: center;
+/* Positioning the hero content */
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    }
+.hero article{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   padding: 10px;
+    }
+/* Styling for article images */
+.hero article img {
+    float: right;
+    margin: 10px;
+    max-width: 50%;
 }
 
-footer a {
-    color: var(--primary-color);
-}
-
-footer a:hover {
-    color: var(--secondary-color);
-}
+    
