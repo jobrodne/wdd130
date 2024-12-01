@@ -29,5 +29,13 @@ nav a {
     margin: 10px;
     max-width: 50%;
 }
+.flex-box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    background-color: #fff;
 
-    
+}
