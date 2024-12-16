@@ -116,6 +116,44 @@ section p {
 .grid-item p {
     color: #333;
 }
+/* Grid Layout for Trips */
+.trip-grid .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.trip-grid img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: #6a1b9a;
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a1b9a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 
 /* Footer Styling */
 footer {
